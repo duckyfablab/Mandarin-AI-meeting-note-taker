@@ -1,0 +1,133 @@
+# === Priority Active Lab & Device Terms ===
+閎康, MA-tek, 台灣半導體研究中心, TSRI, 科三, Clean Room, Wet Bench
+技術電腦輔助設計, TCAD, 3D TCAD, VDMOS, C-DLTS, Oxide TFT
+Veeco ALD, ALD, CVD, PECVD, PVD, MBE, PA-MBE, RTA
+double-side aligner, 雙面對準曝光機, spin coater, 旋轉塗佈機, lithography, 黃光
+Source Meter, SMU, probe station, 探針台, SEM, TEM, SIMS, AFM
+GaN, 氮化鎵, SiC, 碳化矽, β-Ga2O3, 氧化鎵, SOI wafer, SOI晶圓
+passivation, 鈍化層, HKMG, BTI, NBTI, PBTI, TDDB, ID-VG, ID-VD, C-V
+
+# === 1. Materials & Substrates ===
+矽, silicon, Si
+鍺, germanium, Ge
+矽鍺, SiGe
+應變矽, strained silicon
+絕緣層上覆矽, SOI
+氮化鎵, GaN
+氧化鎵, β-Ga2O3, Ga2O3
+碳化矽, SiC
+氧化物, 氧化層, oxide
+閘極氧化層, gate oxide
+高介電常數, high-k
+金屬, metal
+金屬閘極, HKMG, metal gate
+多晶矽, polysilicon, poly-Si
+氮化矽, SiN, Si3N4
+介電層, dielectric
+摻雜, doping, 離子佈植, ion implantation
+
+# === 2. Transistor Architectures & Terminals ===
+場效電晶體, FET
+金氧半場效電晶體, MOSFET
+鰭式場效電晶體, FinFET
+環繞式閘極, GAA, nanosheet
+高電子遷移率電晶體, HEMT
+互補式金氧半, CMOS
+薄膜電晶體, TFT
+閘極, gate, 源極, source, 汲極, drain, 基底, substrate
+通道, channel, 異質結構, AlGaN/GaN
+二維電子氣, 2DEG
+空乏區, depletion region, 反轉層, inversion layer
+臨界電壓, 閾值電壓, threshold voltage, Vth
+
+# === 3. Bias, Stress & Reliability Physics ===
+偏壓, bias
+正偏壓, forward bias, 逆偏壓, reverse bias
+閘極偏壓, gate bias, 汲極偏壓, drain bias
+應力, stress, 電應力, electrical stress
+偏壓溫度不穩定性, BTI
+負偏壓溫度不穩定性, NBTI
+正偏壓溫度不穩定性, PBTI
+經時介電層崩潰, TDDB
+熱載子注入, HCI
+電遷移, electromigration, EM
+界面陷阱, interface trap, Dit
+電荷捕獲, charge trapping, 缺陷, defect
+懸空鍵, dangling bond
+漏電流, leakage current, 閘極漏電, gate leakage
+崩潰電壓, breakdown voltage, BV
+可靠度, reliability, 失效分析, failure analysis, FA
+加速壽命測試, burn-in, 退化, degradation
+
+# === 4. Epitaxy, Fab & Packaging ===
+晶圓, wafer, 晶粒, die, 良率, yield
+磊晶, epitaxy, 分子束磊晶, PA-MBE, MBE
+應力鬆弛, strain relaxation
+薄膜沉積, deposition, CVD, PVD, ALD
+蝕刻, etching, 微影, lithography
+化學機械研磨, CMP
+前段製程, FEOL, 後段製程, BEOL
+先進封裝, CoWoS, 矽穿孔, TSV
+單片微波積體電路, MMIC
+快速充電器, fast charger
+
+# === 5. Institutes, Simulation & Metrology ===
+台灣半導體研究中心, TSRI
+技術電腦輔助設計, TCAD
+製程模擬, process simulation, 元件模擬, device simulation
+有限元素分析, FEM
+掃描式電子顯微鏡, SEM
+穿透式電子顯微鏡, TEM
+原子力顯微鏡, AFM
+X光繞射儀, XRD
+二次離子質譜儀, SIMS
+霍爾效應量測, Hall measurement
+探針台, probe station, 參數分析儀, parameter analyzer
+橢圓偏光儀, ellipsometer
+
+# === 6. Lithography & Alignment (黃光微影) ===
+微影, 黃光, lithography, photolithography
+雙面對準曝光機, double-side aligner, double-aligner
+光罩對準曝光機, mask aligner
+電子束微影, e-beam lithography, EBL
+步進機, stepper, 掃描機, scanner
+極紫外光微影, EUV, 深紫外光, DUV
+光阻, photoresist, PR, 旋轉塗佈機, spin coater
+顯影, development, 軟烤, soft bake, 硬烤, hard bake
+光罩, photomask, reticle, 對準標記, alignment mark
+舉離製程, lift-off
+
+# === 7. Deposition & Epitaxy Furnaces (薄膜與爐管) ===
+化學氣相沉積, CVD
+電漿輔助化學氣相沉積, PECVD
+低壓化學氣相沉積, LPCVD
+有機金屬化學氣相沉積, MOCVD
+物理氣相沉積, PVD
+濺鍍機, sputter, sputtering
+電子束蒸鍍機, e-beam evaporator
+熱蒸鍍機, thermal evaporator
+原子層沉積, ALD
+分子束磊晶, MBE, PA-MBE
+爐管, furnace, 快速熱退火, RTA
+氧化爐管, oxidation furnace, 擴散爐管, diffusion furnace
+
+# === 8. Plasma & Etching (電漿與蝕刻) ===
+電漿, plasma
+乾式蝕刻, dry etching, 濕式蝕刻, wet etching
+反應離子蝕刻, RIE
+電感耦合電漿蝕刻, ICP-RIE, ICP
+深反應離子蝕刻, DRIE
+緩衝氧化物蝕刻液, BOE, 氫氟酸, HF
+電漿灰化機, asher, 去光阻, stripping
+蝕刻速率, etch rate, 選擇比, selectivity, 非等向性, anisotropy
+
+# === 9. Wafer, Cleanroom & Contacts ===
+晶圓, wafer, 裸晶圓, bare wafer, 控片, dummy wafer
+無塵室, cleanroom, 黃光區, yellow room
+晶圓盒, cassette, FOUP
+晶圓切割機, dicing saw, 劈裂, cleaving
+打線機, wire bonder
+真空腔體, vacuum chamber, 渦輪分子幫浦, turbo pump
+質量流量控制器, MFC
+歐姆接觸, ohmic contact, 蕭特基接觸, Schottky contact
+鈍化層, passivation layer
